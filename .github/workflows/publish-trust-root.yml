@@ -175,7 +175,7 @@ jobs:
       # provisioned (see atlasent-api migrations 20260848000000 /
       # 20260849000000).
       - name: AtlaSent publish gate
-        uses: AtlaSent-Systems-Inc/atlasent-action@v1
+        uses: Atlasent/atlasent-action@v1
         env:
           ATLASENT_API_KEY: ${{ secrets.ATLASENT_API_KEY }}
           GITHUB_TOKEN: ${{ github.token }}
