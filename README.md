@@ -70,9 +70,9 @@ None of those paths place private keys or tenant credentials in this repository.
 
 ## Verification ecosystem
 
-- [`atlasent-verify`](https://github.com/AtlaSent-Systems-Inc/atlasent-verify) — standalone offline audit-chain verifier
-- [`atlasent-sdk`](https://github.com/AtlaSent-Systems-Inc/atlasent-sdk) — public client SDKs and wire contract
-- [`atlasent-action`](https://github.com/AtlaSent-Systems-Inc/atlasent-action) — execution-time authorization gate for GitHub Actions
+- [`atlasent-verify`](https://github.com/Atlasent/atlasent-verify) — standalone offline audit-chain verifier
+- [`atlasent-sdk`](https://github.com/Atlasent/atlasent-sdk) — public client SDKs and wire contract
+- [`atlasent-action`](https://github.com/Atlasent/atlasent-action) — execution-time authorization gate for GitHub Actions
 
 If a public verifier needs a trust root, revocation list, or published verifier
 key, this repository is the public source. Product-internal runbooks and customer
